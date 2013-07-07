@@ -1,4 +1,4 @@
 fizzbuzz
 ========
 
-Two solutions to the FizzBuzz problem.
+Several solutions to the FizzBuzz problem.
