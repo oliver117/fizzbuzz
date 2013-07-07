@@ -14,11 +14,11 @@ begin
          Sieve5 (i * 5) := True;
       end if;
 
-      if Sieve3 (i) = True and Sieve5 (i) = True then
+      if Sieve3 (i) and Sieve5 (i) then
          Ada.Text_IO.Put_Line ("FizzBuzz");
-      elsif Sieve3 (i) = True then
+      elsif Sieve3 (i) then
          Ada.Text_IO.Put_Line ("Fizz");
-      elsif Sieve5 (i) = True then
+      elsif Sieve5 (i) then
          Ada.Text_IO.Put_Line ("Buzz");
       else
          Ada.Text_IO.Put_Line (Integer'Image (i));
