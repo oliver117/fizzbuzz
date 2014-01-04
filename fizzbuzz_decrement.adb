@@ -1,3 +1,5 @@
+-- idea: alexandrus
+
 with Ada.Text_IO;
 
 procedure FizzBuzz_Decrement is

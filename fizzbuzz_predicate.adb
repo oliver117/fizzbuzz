@@ -1,4 +1,4 @@
--- Note: untested
+-- idea: jk4
 
 with Ada.Text_IO;
 
